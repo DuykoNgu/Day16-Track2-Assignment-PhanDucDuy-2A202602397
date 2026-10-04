@@ -1,0 +1,26 @@
+{
+  "dataset": {
+    "name": "creditcard.csv",
+    "total_rows": 284807,
+    "total_cols": 31,
+    "fraud_ratio_pct": 0.173
+  },
+  "metrics": {
+    "data_load_time_sec": 2.5257,
+    "training_time_sec": 2.141,
+    "best_iteration": 1,
+    "auc_roc": 0.9517,
+    "accuracy": 0.9989,
+    "f1_score": 0.7273,
+    "precision": 0.6557,
+    "recall": 0.8163,
+    "inference_latency_1_row_ms": 1.654,
+    "inference_latency_1_row_p95_ms": 1.696,
+    "inference_throughput_1000_rows_per_sec": 497984.4,
+    "inference_batch_1000_latency_ms": 2.01
+  },
+  "system": {
+    "python_version": "3.10.12",
+    "lightgbm_version": "4.0.0"
+  }
+}
